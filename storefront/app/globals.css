@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-main: #f7f8f6;
+  --color-subMain: #ffffff;
+  --color-contrast: #73c91d;
+  --color-border: #eeeeee;
+  --font-bangla-regular: "Li_Purno_Pran", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+input {
+  background-color: transparent;
+}
+
+textarea {
+  background-color: transparent;
+}
+
+select {
+  background-color: transparent;
+}
+
+/* PRINT MODE */
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

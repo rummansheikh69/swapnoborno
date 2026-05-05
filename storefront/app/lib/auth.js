@@ -1,0 +1,15 @@
+import { cookies } from "next/headers";
+import jwt from "jsonwebtoken";
+
+export async function getUserFromToken() {
+  const cookieStore = await cookies();
+  const token = cookieStore.get("jwt")?.value;
+
+  if (!token) return null;
+
+  try {
+    return jwt.verify(token, process.env.JWT_SECRET);
+  } catch {
+    return null;
+  }
+}
