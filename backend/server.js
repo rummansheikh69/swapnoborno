@@ -37,7 +37,7 @@ app.use(
     origin: [
       `${process.env.CLIENT_URL}`,
       "http://localhost:3001",
-      "https://airgunbd.com",
+      "https://www.swapnoborno.com",
     ],
     credentials: true,
   }),
