@@ -77,12 +77,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Column 1 */}
           <div>
-            <h2 className="text-2xl font-semibold mb-4">
-              Airgun<span className="text-red-500">BD</span>
-            </h2>
+            <h2 className="text-2xl font-semibold mb-4">​স্বপ্নবর্ণ</h2>
 
             <p className="text-gray-600 leading-relaxed mb-5">
-              swapnoborno.com শাড়ি প্রেমীদের প্রতারণা মুক্ত নির্ভরযোগ্য ঠিকানা
+              ​স্বপ্নবর্ণ শাড়ি প্রেমীদের প্রতারণা মুক্ত নির্ভরযোগ্য ঠিকানা
             </p>
 
             <div className="flex items-center gap-4">
@@ -154,7 +152,7 @@ export default function Footer() {
         <div className="mt-12 mb-3 border-t border-gray-300"></div>
         <div className=" w-full">
           <h2 className=" text-center text-zinc-400">
-            &copy; {new Date().getFullYear()} AirgunBD | All rights reserved
+            &copy; {new Date().getFullYear()} Swapnoborno | All rights reserved
           </h2>
         </div>
       </div>
