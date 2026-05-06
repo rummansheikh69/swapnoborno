@@ -37,7 +37,11 @@ app.use(
     origin: [
       `${process.env.CLIENT_URL}`,
       "http://localhost:3001",
+<<<<<<< HEAD
       "https://www.swapnoborno.com",
+=======
+"https://www.swapnoborno.com",
+>>>>>>> 09bf66e79e5d5c9b4795431e749839e373a5acf4
     ],
     credentials: true,
   }),
