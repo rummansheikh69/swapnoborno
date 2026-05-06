@@ -46,7 +46,7 @@ export default function Footer() {
             <div>
               <h4 className="text-sm font-semibold text-gray-800">Call Us</h4>
 
-              <p className="text-sm text-gray-600">+880 1947144644</p>
+              <p className="text-sm text-gray-600">+880 1317759954</p>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ export default function Footer() {
             <FaEnvelope className="text-gray-600 text-lg" />
             <div>
               <h4 className="text-sm font-semibold text-gray-800">Email Us</h4>
-              <p className="text-sm text-gray-600">airgunbd.com@gmail.com</p>
+              <p className="text-sm text-gray-600">swapnoborno4@gmail.com</p>
             </div>
           </div>
         </div>
@@ -82,8 +82,7 @@ export default function Footer() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-5">
-              AirgunBD.com – বাংলাদেশের এয়ারগান প্রেমীদের প্রতারণা মুক্ত
-              নির্ভরযোগ্য ঠিকানা!
+              swapnoborno.com শাড়ি প্রেমীদের প্রতারণা মুক্ত নির্ভরযোগ্য ঠিকানা
             </p>
 
             <div className="flex items-center gap-4">

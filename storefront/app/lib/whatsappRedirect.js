@@ -5,7 +5,7 @@ export const redirectToWhatsApp = ({
   validity,
   price,
 }) => {
-  const phoneNumber = "8801865301211";
+  const phoneNumber = "8801317759954";
 
   const message = `
 *📦 New Order Request*

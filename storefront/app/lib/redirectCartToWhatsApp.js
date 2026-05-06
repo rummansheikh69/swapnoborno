@@ -1,7 +1,7 @@
 "use client";
 
 export const redirectCartToWhatsApp = (cart) => {
-  const phoneNumber = "8801865301211";
+  const phoneNumber = "8801317759954";
 
   if (!cart || cart.length === 0) {
     alert("Cart is empty!");

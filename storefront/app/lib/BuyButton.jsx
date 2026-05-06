@@ -1,7 +1,7 @@
 "use client";
 export const BuyButton = ({ productName, imageUrl, price }) => {
   const redirectToWhatsApp = () => {
-    const phoneNumber = "8801947144644";
+    const phoneNumber = "8801317759954";
 
     const message = `
 *📦 New Order Request*

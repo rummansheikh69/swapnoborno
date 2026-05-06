@@ -134,7 +134,7 @@ export default function page() {
 
           {/* ================= FOOTER ================= */}
           <div className="mt-20 text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} AirgunBD | All rights reserved.
+            © {new Date().getFullYear()} Swapnoborno | All rights reserved.
           </div>
         </div>
       </div>
