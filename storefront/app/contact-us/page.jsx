@@ -38,7 +38,7 @@ export default function page() {
               icon: "✉",
               title: "Direct Email",
               text: "For general inquiries and sales questions.",
-              link: "airgunbd.com@gmail.com",
+              link: "swapnoborno4@gmail.com",
             },
 
             {
@@ -46,13 +46,13 @@ export default function page() {
               title: "Live Support",
               text: "Instant answers during business hours.",
               link: "Start a Chat",
-              href: "https://Wa.me/+8801947144644",
+              href: "https://Wa.me/+8801317759954",
             },
             {
               icon: "📞",
               title: "Call Support",
               text: "Talk with our support team directly.",
-              link: "+880 1947144644",
+              link: "+880 1317759954",
             },
           ].map((card, i) => (
             <div
