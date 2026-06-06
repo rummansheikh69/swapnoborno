@@ -2,19 +2,18 @@
 
 import Script from "next/script";
 import { useEffect } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const FACEBOOK_PIXEL_ID = "4119555701606031";
 
 export default function FacebookPixel() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "PageView");
     }
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return (
     <>
