@@ -6,6 +6,21 @@ import Link from "next/link";
 import { useCartStore } from "@/app/store/useCartStore";
 
 function ProductCard({ product }) {
+  const handleAddToCart = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    window.fbq?.("track", "AddToCart", {
+      content_ids: [product._id],
+      content_name: product.title,
+      content_type: "product",
+      value: Number(product.discountPrice),
+      currency: "BDT",
+    });
+
+    addToCart(product);
+  };
+
   const cartItem = useCartStore((state) =>
     state.cart.find((item) => item._id === product._id),
   );
@@ -72,11 +87,7 @@ function ProductCard({ product }) {
           // ADD TO CART
           <div
             className="w-full rounded-full bg-contrast hover:bg-[#65b119] h-8 flex items-center justify-center gap-2 text-white mt-2 cursor-pointer"
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              addToCart(product);
-            }}
+            onClick={handleAddToCart}
           >
             <ShoppingBagIcon size={15} />
             <h2 className="text-sm font-medium">Add to Cart</h2>
