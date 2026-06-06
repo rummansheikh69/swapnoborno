@@ -6,6 +6,7 @@ import Footer from "./components/layout/Footer";
 import BottomNavigation from "./components/layout/BottomNavigation";
 import AuthInitializer from "./components/utils/AuthInitializer";
 import { Toaster } from "react-hot-toast";
+import FacebookPixel from "./components/utils/FacebookPixel";
 
 const banglaRegular = localFont({
   variable: "--font-bangla-regular",
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
         // ensure the body is at least viewport height so descendant height-full works
         className={`${geistSans.variable} ${geistMono.variable} ${banglaRegular.variable} antialiased bg-main text-zinc-900 min-h-screen w-full`}
       >
+        <FacebookPixel />
         <AuthInitializer>
           <Navbar />
           <div className=" pt-16">{children}</div>
